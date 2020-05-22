@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,9 +13,19 @@
 		3C74C556246B53ED00371A1E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C74C554246B53ED00371A1E /* Main.storyboard */; };
 		3C74C558246B53F100371A1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C74C557246B53F100371A1E /* Assets.xcassets */; };
 		3C74C55B246B53F100371A1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C74C559246B53F100371A1E /* LaunchScreen.storyboard */; };
+		3C74C563246B54E300371A1E /* corpus.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3C74C562246B54E300371A1E /* corpus.txt */; };
+		3C74C565246B587C00371A1E /* bible.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3C74C564246B587C00371A1E /* bible.txt */; };
+		3C74C567246B598400371A1E /* ocanada.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3C74C566246B598400371A1E /* ocanada.txt */; };
+		3C74C569246B5CA000371A1E /* trump.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3C74C568246B5CA000371A1E /* trump.txt */; };
+		3C75113C2478426B00753C9C /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C75113B2478426B00753C9C /* NetworkManager.swift */; };
+		3C7511432478516100753C9C /* Tweet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7511422478516100753C9C /* Tweet.swift */; };
+		3C7511452478690300753C9C /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7511442478690300753C9C /* MainViewController.swift */; };
+		9E0183EDC38518FD578006FF /* Pods_FakeTweetTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23CC266B22286A280584D7A7 /* Pods_FakeTweetTest.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		14BC05148E8124593347A83A /* Pods-FakeTweetTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FakeTweetTest.release.xcconfig"; path = "Target Support Files/Pods-FakeTweetTest/Pods-FakeTweetTest.release.xcconfig"; sourceTree = "<group>"; };
+		23CC266B22286A280584D7A7 /* Pods_FakeTweetTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FakeTweetTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C74C54B246B53ED00371A1E /* FakeTweetTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FakeTweetTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C74C54E246B53ED00371A1E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3C74C550246B53ED00371A1E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +34,14 @@
 		3C74C557246B53F100371A1E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3C74C55A246B53F100371A1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3C74C55C246B53F100371A1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C74C562246B54E300371A1E /* corpus.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = corpus.txt; sourceTree = "<group>"; };
+		3C74C564246B587C00371A1E /* bible.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = bible.txt; sourceTree = "<group>"; };
+		3C74C566246B598400371A1E /* ocanada.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = ocanada.txt; sourceTree = "<group>"; };
+		3C74C568246B5CA000371A1E /* trump.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = trump.txt; sourceTree = "<group>"; };
+		3C75113B2478426B00753C9C /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		3C7511422478516100753C9C /* Tweet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tweet.swift; sourceTree = "<group>"; };
+		3C7511442478690300753C9C /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		AC5AAE36A05CEA2F1BD5FDF5 /* Pods-FakeTweetTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FakeTweetTest.debug.xcconfig"; path = "Target Support Files/Pods-FakeTweetTest/Pods-FakeTweetTest.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +49,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E0183EDC38518FD578006FF /* Pods_FakeTweetTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		13C6FF3F945A8677437CFB62 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				23CC266B22286A280584D7A7 /* Pods_FakeTweetTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		21276770DB9B170D95F62BE4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AC5AAE36A05CEA2F1BD5FDF5 /* Pods-FakeTweetTest.debug.xcconfig */,
+				14BC05148E8124593347A83A /* Pods-FakeTweetTest.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		3C74C542246B53ED00371A1E = {
 			isa = PBXGroup;
 			children = (
 				3C74C54D246B53ED00371A1E /* FakeTweetTest */,
 				3C74C54C246B53ED00371A1E /* Products */,
+				21276770DB9B170D95F62BE4 /* Pods */,
+				13C6FF3F945A8677437CFB62 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +94,62 @@
 		3C74C54D246B53ED00371A1E /* FakeTweetTest */ = {
 			isa = PBXGroup;
 			children = (
-				3C74C54E246B53ED00371A1E /* AppDelegate.swift */,
-				3C74C550246B53ED00371A1E /* SceneDelegate.swift */,
-				3C74C552246B53ED00371A1E /* ViewController.swift */,
-				3C74C554246B53ED00371A1E /* Main.storyboard */,
+				3C7511412478513F00753C9C /* Models */,
+				3C75114024784A2C00753C9C /* Managers */,
+				3C75113F247849E400753C9C /* View Controllers */,
+				3C75113E247849DB00753C9C /* Storyboards */,
 				3C74C557246B53F100371A1E /* Assets.xcassets */,
-				3C74C559246B53F100371A1E /* LaunchScreen.storyboard */,
 				3C74C55C246B53F100371A1E /* Info.plist */,
+				3C75113D247849C400753C9C /* Supporting */,
 			);
 			path = FakeTweetTest;
+			sourceTree = "<group>";
+		};
+		3C75113D247849C400753C9C /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				3C74C566246B598400371A1E /* ocanada.txt */,
+				3C74C568246B5CA000371A1E /* trump.txt */,
+				3C74C564246B587C00371A1E /* bible.txt */,
+				3C74C562246B54E300371A1E /* corpus.txt */,
+				3C74C54E246B53ED00371A1E /* AppDelegate.swift */,
+				3C74C550246B53ED00371A1E /* SceneDelegate.swift */,
+			);
+			path = Supporting;
+			sourceTree = "<group>";
+		};
+		3C75113E247849DB00753C9C /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				3C74C554246B53ED00371A1E /* Main.storyboard */,
+				3C74C559246B53F100371A1E /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		3C75113F247849E400753C9C /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3C74C552246B53ED00371A1E /* ViewController.swift */,
+				3C7511442478690300753C9C /* MainViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		3C75114024784A2C00753C9C /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				3C75113B2478426B00753C9C /* NetworkManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		3C7511412478513F00753C9C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3C7511422478516100753C9C /* Tweet.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +159,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3C74C55F246B53F100371A1E /* Build configuration list for PBXNativeTarget "FakeTweetTest" */;
 			buildPhases = (
+				C3BE06BFF13D2A1A57BA29EC /* [CP] Check Pods Manifest.lock */,
 				3C74C547246B53ED00371A1E /* Sources */,
 				3C74C548246B53ED00371A1E /* Frameworks */,
 				3C74C549246B53ED00371A1E /* Resources */,
+				51154C6FA9A144A7C5E213EB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,20 +212,69 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C74C563246B54E300371A1E /* corpus.txt in Resources */,
+				3C74C569246B5CA000371A1E /* trump.txt in Resources */,
 				3C74C55B246B53F100371A1E /* LaunchScreen.storyboard in Resources */,
+				3C74C567246B598400371A1E /* ocanada.txt in Resources */,
 				3C74C558246B53F100371A1E /* Assets.xcassets in Resources */,
+				3C74C565246B587C00371A1E /* bible.txt in Resources */,
 				3C74C556246B53ED00371A1E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		51154C6FA9A144A7C5E213EB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FakeTweetTest/Pods-FakeTweetTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FakeTweetTest/Pods-FakeTweetTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FakeTweetTest/Pods-FakeTweetTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3BE06BFF13D2A1A57BA29EC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FakeTweetTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3C74C547246B53ED00371A1E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C75113C2478426B00753C9C /* NetworkManager.swift in Sources */,
+				3C7511432478516100753C9C /* Tweet.swift in Sources */,
 				3C74C553246B53ED00371A1E /* ViewController.swift in Sources */,
+				3C7511452478690300753C9C /* MainViewController.swift in Sources */,
 				3C74C54F246B53ED00371A1E /* AppDelegate.swift in Sources */,
 				3C74C551246B53ED00371A1E /* SceneDelegate.swift in Sources */,
 			);
@@ -282,17 +418,21 @@
 		};
 		3C74C560246B53F100371A1E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC5AAE36A05CEA2F1BD5FDF5 /* Pods-FakeTweetTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = RENK4GJFRQ;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = FakeTweetTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = dev.abey.FakeTweetTest;
+				PRODUCT_BUNDLE_IDENTIFIER = com.steamclock.FakeTweetTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -300,17 +440,21 @@
 		};
 		3C74C561246B53F100371A1E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14BC05148E8124593347A83A /* Pods-FakeTweetTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = RENK4GJFRQ;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = FakeTweetTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = dev.abey.FakeTweetTest;
+				PRODUCT_BUNDLE_IDENTIFIER = com.steamclock.FakeTweetTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

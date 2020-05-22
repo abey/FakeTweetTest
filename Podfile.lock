@@ -1,0 +1,32 @@
+PODS:
+  - Alamofire (5.0.4)
+  - MarkovUnchained (0.1.0)
+  - Swifter (2.4.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - MarkovUnchained
+  - Swifter (from `https://github.com/mattdonnelly/Swifter.git`)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - MarkovUnchained
+
+EXTERNAL SOURCES:
+  Swifter:
+    :git: https://github.com/mattdonnelly/Swifter.git
+
+CHECKOUT OPTIONS:
+  Swifter:
+    :commit: af6f51b8d4ced3f1045ccdeb338d250171544bd6
+    :git: https://github.com/mattdonnelly/Swifter.git
+
+SPEC CHECKSUMS:
+  Alamofire: 0fe5fd24b4298dc377a6550da7d5f1b30e286fcb
+  MarkovUnchained: bbe79ac1cdde50720f1662a1a1b5b839a40f6e9d
+  Swifter: 0955a05325dc182fabfb1468305aef887180e0f1
+
+PODFILE CHECKSUM: 41ba0ab5706e9ec9167a140b934d151a61a6dbf7
+
+COCOAPODS: 1.9.1

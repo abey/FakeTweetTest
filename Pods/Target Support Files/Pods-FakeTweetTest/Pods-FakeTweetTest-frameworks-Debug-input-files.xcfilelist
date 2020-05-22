@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-FakeTweetTest/Pods-FakeTweetTest-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/MarkovUnchained/MarkovUnchained.framework
+${BUILT_PRODUCTS_DIR}/Swifter/Swifter.framework
