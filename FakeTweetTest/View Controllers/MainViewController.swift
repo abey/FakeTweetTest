@@ -47,7 +47,7 @@ class MainViewController: UIViewController {
             guard let initialState = self.starters.randomElement() else {
                 return
             }
-            let states = chain.nextStates(60, for: initialState, using: .mixed)
+            let states = chain.nextStates(30, for: initialState, using: .mixed)
             var text = [initialState]
             text.append(contentsOf: states)
             var generatedTweet = text.joined(separator: " ").components(separatedBy: ".").dropLast().joined(separator: ".")

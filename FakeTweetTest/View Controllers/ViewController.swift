@@ -55,6 +55,9 @@ class ViewController: UIViewController {
     @IBAction func cbcAlerts(_ sender: Any) {
         goToNextPage(name: "CBCAlerts")
     }
+    @IBAction func leia(_ sender: Any) {
+        goToNextPage(name: "leia_thePM")
+    }
 
     func goToNextPage(name: String) {
         NetworkManager.shared.username = name

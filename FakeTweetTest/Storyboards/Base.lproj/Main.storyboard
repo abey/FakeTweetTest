@@ -149,6 +149,16 @@
                                     <action selector="trump:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mf5-2g-cTS"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IFX-O5-hiT">
+                                <rect key="frame" x="174" y="710" width="88" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="88" id="LnT-Z5-cZh"/>
+                                </constraints>
+                                <state key="normal" title="@leia_thePM"/>
+                                <connections>
+                                    <action selector="leia:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bpV-gI-8qZ"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
@@ -162,6 +172,7 @@
                             <constraint firstItem="MJQ-bk-uSI" firstAttribute="leading" secondItem="7Kt-cI-UUb" secondAttribute="trailing" constant="40" id="HdQ-B8-zvG"/>
                             <constraint firstItem="nHQ-ID-ocT" firstAttribute="centerX" secondItem="J8g-9X-LO3" secondAttribute="centerX" id="I51-ow-ELz"/>
                             <constraint firstItem="aT6-b1-Uwg" firstAttribute="top" secondItem="MvH-SJ-IEX" secondAttribute="bottom" constant="40" id="JdO-sX-Nvx"/>
+                            <constraint firstItem="IFX-O5-hiT" firstAttribute="centerY" secondItem="DQs-2P-8iP" secondAttribute="centerY" id="Km6-cC-FXn"/>
                             <constraint firstItem="w2w-mp-L2y" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="MYZ-1H-s2y"/>
                             <constraint firstItem="MvH-SJ-IEX" firstAttribute="centerX" secondItem="w2w-mp-L2y" secondAttribute="centerX" id="Mhc-rg-kKb"/>
                             <constraint firstItem="nHQ-ID-ocT" firstAttribute="top" secondItem="J8g-9X-LO3" secondAttribute="bottom" constant="8" id="NTx-Ow-O3H"/>
@@ -186,6 +197,7 @@
                             <constraint firstItem="Fba-C6-lid" firstAttribute="top" secondItem="qvu-Tb-JzL" secondAttribute="bottom" constant="8" id="l09-ZP-WlU"/>
                             <constraint firstItem="nHQ-ID-ocT" firstAttribute="width" secondItem="J8g-9X-LO3" secondAttribute="width" multiplier="0.772727" id="mjl-mI-oOX"/>
                             <constraint firstItem="Fba-C6-lid" firstAttribute="leading" secondItem="qvu-Tb-JzL" secondAttribute="leading" id="o09-XZ-BPM"/>
+                            <constraint firstItem="IFX-O5-hiT" firstAttribute="leading" secondItem="DQs-2P-8iP" secondAttribute="trailing" constant="23" id="qmF-fp-mIV"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="w2w-mp-L2y" secondAttribute="trailing" constant="20" id="rpz-f0-LPp"/>
                             <constraint firstItem="7Kt-cI-UUb" firstAttribute="top" secondItem="ioz-pH-RqC" secondAttribute="bottom" constant="8" id="s4c-tV-2tS"/>
                             <constraint firstItem="qvu-Tb-JzL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="s62-CP-fBz"/>
@@ -225,7 +237,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="100" id="Zx0-pa-9ah"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
