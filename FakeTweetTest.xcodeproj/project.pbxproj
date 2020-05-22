@@ -13,10 +13,6 @@
 		3C74C556246B53ED00371A1E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C74C554246B53ED00371A1E /* Main.storyboard */; };
 		3C74C558246B53F100371A1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C74C557246B53F100371A1E /* Assets.xcassets */; };
 		3C74C55B246B53F100371A1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C74C559246B53F100371A1E /* LaunchScreen.storyboard */; };
-		3C74C563246B54E300371A1E /* corpus.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3C74C562246B54E300371A1E /* corpus.txt */; };
-		3C74C565246B587C00371A1E /* bible.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3C74C564246B587C00371A1E /* bible.txt */; };
-		3C74C567246B598400371A1E /* ocanada.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3C74C566246B598400371A1E /* ocanada.txt */; };
-		3C74C569246B5CA000371A1E /* trump.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3C74C568246B5CA000371A1E /* trump.txt */; };
 		3C75113C2478426B00753C9C /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C75113B2478426B00753C9C /* NetworkManager.swift */; };
 		3C7511432478516100753C9C /* Tweet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7511422478516100753C9C /* Tweet.swift */; };
 		3C7511452478690300753C9C /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7511442478690300753C9C /* MainViewController.swift */; };
@@ -34,10 +30,6 @@
 		3C74C557246B53F100371A1E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3C74C55A246B53F100371A1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3C74C55C246B53F100371A1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3C74C562246B54E300371A1E /* corpus.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = corpus.txt; sourceTree = "<group>"; };
-		3C74C564246B587C00371A1E /* bible.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = bible.txt; sourceTree = "<group>"; };
-		3C74C566246B598400371A1E /* ocanada.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = ocanada.txt; sourceTree = "<group>"; };
-		3C74C568246B5CA000371A1E /* trump.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = trump.txt; sourceTree = "<group>"; };
 		3C75113B2478426B00753C9C /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		3C7511422478516100753C9C /* Tweet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tweet.swift; sourceTree = "<group>"; };
 		3C7511442478690300753C9C /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -108,10 +100,6 @@
 		3C75113D247849C400753C9C /* Supporting */ = {
 			isa = PBXGroup;
 			children = (
-				3C74C566246B598400371A1E /* ocanada.txt */,
-				3C74C568246B5CA000371A1E /* trump.txt */,
-				3C74C564246B587C00371A1E /* bible.txt */,
-				3C74C562246B54E300371A1E /* corpus.txt */,
 				3C74C54E246B53ED00371A1E /* AppDelegate.swift */,
 				3C74C550246B53ED00371A1E /* SceneDelegate.swift */,
 			);
@@ -212,12 +200,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3C74C563246B54E300371A1E /* corpus.txt in Resources */,
-				3C74C569246B5CA000371A1E /* trump.txt in Resources */,
 				3C74C55B246B53F100371A1E /* LaunchScreen.storyboard in Resources */,
-				3C74C567246B598400371A1E /* ocanada.txt in Resources */,
 				3C74C558246B53F100371A1E /* Assets.xcassets in Resources */,
-				3C74C565246B587C00371A1E /* bible.txt in Resources */,
 				3C74C556246B53ED00371A1E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

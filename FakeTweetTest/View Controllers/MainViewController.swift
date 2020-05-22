@@ -47,12 +47,16 @@ class MainViewController: UIViewController {
             guard let initialState = self.starters.randomElement() else {
                 return
             }
-            let states = chain.nextStates(60, for: initialState, using: .weighted)
+            let states = chain.nextStates(60, for: initialState, using: .mixed)
             var text = [initialState]
             text.append(contentsOf: states)
             var generatedTweet = text.joined(separator: " ").components(separatedBy: ".").dropLast().joined(separator: ".")
             print(generatedTweet)
             if generatedTweet == "" {
+                DispatchQueue.main.async {
+                    self.tweetLabel.text = "Loading..."
+                    self.tweetLabel.sizeToFit()
+                }
                 self.createTweet()
                 return
             }
